@@ -68,3 +68,8 @@ Property | Description
 Function | Parameter | Description
 ---|---|---
 `is` | event type [String] | Checks if the payload matches an event type. Get a full list of events [here](index.js#L197)
+
+## Install
+```
+npm i slack-payload
+```
