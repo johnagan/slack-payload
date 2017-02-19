@@ -1,0 +1,29 @@
+{
+  "name": "slack-payload",
+  "version": "1.0.0",
+  "author": "John Agan <johnagan@gmail.com>",
+  "description": "A wrapper for Slack payloads to make working with events easier and consistent across events",
+  "homepage": "https://github.com/johnagan/slack-payload",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "test": "mocha"
+  },
+  "keywords": [
+    "slack",
+    "payload",
+    "json",
+    "bot"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/johnagan/slack-payload.git"
+  },
+  "bugs": {
+    "url": "https://github.com/johnagan/slack-payload/issues"
+  },
+  "devDependencies": {
+    "chai": "^3.5.0",
+    "mocha": "^3.2.0"
+  }
+}

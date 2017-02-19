@@ -1,0 +1,33 @@
+{
+  "slash_command": {
+    "token": "TOKEN",
+    "team_id": "TEAM_ID",
+    "team_domain": "TEAM_DOMAIN",
+    "channel_id": "CHANNEL_ID",
+    "channel_name": "CHANNEL_NAME",
+    "user_id": "USER_ID",
+    "user_name": "USER_NAME",
+    "command": "/COMMAND",
+    "text": "TEXT",
+    "response_url": "https://hooks.slack.com/commands/xxxxxxx/xxxxxxx/xxxxxxxxx"
+  },
+  "events": {
+    "message": {
+      "token": "TOKEN",
+      "team_id": "TEAM_ID",
+      "api_app_id": "API_APP_ID",
+      "event": {
+        "type": "message",
+        "user": "USER_UD",
+        "text": "TEXT",
+        "ts": "1486271192.000002",
+        "channel": "CHANNEL_ID",
+        "event_ts": "1486271192.000002"
+      },
+      "type": "event_callback",
+      "authed_users": [
+        "USER_ID"
+      ]
+    }
+  }
+}
