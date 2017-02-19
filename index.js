@@ -218,8 +218,8 @@ class Payload {
     // interactive message triggered by callback_id
     if (this.callback_id) events.push('interactive_message', this.callback_id)
 
-    // message menu selection
-    if (this.selection) events.push('message_menu', this.selection.value)
+    // message selection
+    if (this.selection) events.push('message_select', this.selection.value)
 
     // message button triggered by callback_id
     if (this.action) events.push('message_button', this.action.value)
