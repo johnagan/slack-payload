@@ -4,7 +4,7 @@ A lightweight wrapper for Slack payloads to make working with events easier and 
 
 ## Why?
 
-Slack has many events that POST to HTTPS endpoints, including [Slash Commands](https://api.slack.com/slash-commands), [Events API](https://api.slack.com/events-api), and [Interactive Messages](https://api.slack.com/docs/message-buttons). Each payload schema is slightly different and adds additional if/then logic to your endpoint logic.
+Slack has many events that POST to HTTPS endpoints, including [Slash Commands](https://api.slack.com/slash-commands), [Events API](https://api.slack.com/events-api), and [Interactive Messages](https://api.slack.com/docs/message-buttons). Each payload schema is slightly different and adds additional if/then logic to your endpoint functions.
 
 Let's use `user_id` as an example. If your endpoint needs this id, your logic might look something like this:
 
