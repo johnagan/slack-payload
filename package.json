@@ -1,6 +1,6 @@
 {
   "name": "slack-payload",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "author": "John Agan <johnagan@gmail.com>",
   "description": "A wrapper for Slack payloads to make working with events easier and consistent across events",
   "homepage": "https://github.com/johnagan/slack-payload",
