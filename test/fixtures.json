@@ -18,7 +18,7 @@
       "api_app_id": "API_APP_ID",
       "event": {
         "type": "message",
-        "user": "USER_UD",
+        "user": "USER_ID",
         "text": "TEXT",
         "ts": "1486271192.000002",
         "channel": "CHANNEL_ID",
