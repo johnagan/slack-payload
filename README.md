@@ -30,12 +30,7 @@ if (event.payload)
 
 ## Example
 ```js
-const 
-  Payload = require('slack-payload'),
-  express = require('express'),
-  app = express()
-
-... // express middleware
+const Payload = require('slack-payload'),
 
 app.post('/slack', (req, res) => {
   let payload = new Payload(req.body)
