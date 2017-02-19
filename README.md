@@ -1,6 +1,6 @@
 # Slack Payload Wrapper
 
-A lightweight wrapper for Slack payloads to make working with events easier and consistent across events.
+A lightweight wrapper for Slack payloads to make working with events easier and consistent across schemas.
 
 ## Why?
 
