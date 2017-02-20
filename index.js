@@ -32,7 +32,8 @@ class Payload {
    * @return {Object} the selected option
    */
   get selection() {
-    if (this.action) return this.action.selected_options[0]
+    if (this.action && this.action.selected_options)
+      return this.action.selected_options[0]
   }
 
 
