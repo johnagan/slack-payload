@@ -196,7 +196,7 @@ class Payload {
    * @return {Array} the event types
    */
   get types() {
-    let events = ['*'] // wildcard
+    let events = []
 
     // incoming message by type
     if (this.type) events.push(this.type)
