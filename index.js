@@ -86,7 +86,7 @@ class Payload {
   /**
    * Get the bot id the payload was sent from (if applicable)
    *
-   * @return {Boolean} created from a bot account
+   * @return {String} the bot id
    */
   get bot_id() {
     return super.bot_id || (this.event && this.event.bot_id)
