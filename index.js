@@ -44,6 +44,7 @@ class Payload {
    * @return {Array} the regex match
    */
   match(regex) {
+    if (typeof regex !== "object") regex = new RegExp(regex, "igm")
     if (this.text) return this.text.match(regex)
   }
 
@@ -55,7 +56,7 @@ class Payload {
    * @return {Boolean} does the payload match the type 
    */
   is(type) {
-    return this.types.includes(type)
+    return this.types.includes(type) || this.match(type)
   }
 
 
