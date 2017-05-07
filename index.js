@@ -8,6 +8,10 @@ class Payload {
   constructor(payload) {
     payload = payload || {}
 
+    // JSON String
+    if (typeof payload === 'string')
+      payload = JSON.parse(payload)
+
     // Interactive Messages
     if (payload.payload)
       payload = JSON.parse(payload.payload)
