@@ -48,7 +48,7 @@ class Payload {
    * @return {Array} the regex match
    */
   match(regex) {
-    if (typeof regex !== "object") regex = new RegExp(regex, "igm")
+    if (typeof regex !== "object") regex = new RegExp(regex, "im")
     if (this.text) return this.text.match(regex)
   }
 
