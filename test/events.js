@@ -9,10 +9,6 @@ describe('Events', () => {
       let data = fixtures[type]
       let payload = new Payload(data)
 
-      it('should match on wildcard', () => {
-        assert.isTrue(payload.is('*'))
-      })
-
       it('should parse the payload', () => {
         assert.equal(payload.token, data.token)
       })
