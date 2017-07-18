@@ -1,0 +1,13 @@
+language: node_js
+node_js:
+  - "node"
+  - "7"
+  - "6"
+deploy:
+  provider: npm
+  email: johnagan@gmail.com
+  api_key:
+    secure: CodPLbvVEklfoZwQ6/FIsUMcP4j2sSOgrQEG7EPu59pZ9ScJ1qaQ//DyC40lLJ551VuEaBU9LdvdeoptLDOQDHmc7eTsYXtK5kmp8Oza9Ri42n1Uog5h+/K2PQ8k8vumOt5Em4Czdwo3jywdJUDX5L8jt4RLYIOQ1MKk9VnIjkhMgFWQtISCBuzMU7hjZLgV30OnPvzD2TOF+VFsemE2HjHXDibWDofH2nUrrdbG5OjSSRNP8QqTkLtSXLhBxXUWNJBN6PNMvrX5YvvkKr3+z2aySK4R13q/MTtdXqeYZy95W9LCBNq+FQ18cWMU7Az6uAmV25Nj6n28Ytq0AoApvRiJnJvOl2Fd8MCBl5TE+VRfYbVaUBrQsDu7ii4Rn2lmSGscWyFvZP3Vn3SJRiz2gmwpeCkY/VaguG2P8vmXxNn//oMJENRWYmN8dB0JzJ9ImomheTRsG6B2sIROJlao5ghYPy8RFiSluvauDmAs7lYB0+gbYQ6OE4x9h1uUT9myWG3a84J2WxK38R6Eo7byRT55jNG57wL2J/f3CdijoBdFs0AnkKCFXJ7lA38g7F3aO8V7AQLECftfGPD0hqb8KuiDvuiyiPFnzbWjwfiiuj0AWUXv10zc4fy0lRhT50V7yPDVg1EJixUE9i1NyL0MzQp8bJwcJz9lju7T0uxa9UU=
+  on:
+    tags: true
+    repo: johnagan/slack-payload
