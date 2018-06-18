@@ -229,6 +229,9 @@ class Payload {
 
     // message button triggered by callback_id
     if (this.action) events.push('message_button', this.action.value)
+    
+    // ensure unique values
+    events = events.filter((v, i, a) => a.indexOf(v) === i); 
 
     return events
   }
